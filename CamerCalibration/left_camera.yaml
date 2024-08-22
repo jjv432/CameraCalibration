@@ -1,0 +1,22 @@
+/**:
+   ros__parameters:
+      video_device: "/dev/video0"
+      framerate: 30.0
+      io_method: "mmap"
+      frame_id: "camera1"
+      pixel_format: "mjpeg2rgb"  # see usb_cam/supported_formats for list of supported formats
+      av_device_format: "YUV422P"
+      image_width: 640
+      image_height: 480
+      camera_name: "camera1"
+      camera_info_url: "file:///home/orl/Documents/MyCameraCalibration/left_camera_cal.yaml"
+      brightness: 0
+      contrast: 32
+      saturation: 64
+      sharpness: 3
+      gain: 0
+      white_balance_automatic: 1
+      white_balance_temperature: 4600
+      auto_exposure: 3
+      
+      

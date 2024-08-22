@@ -1,0 +1,22 @@
+/**:
+   ros__parameters:
+      video_device: "/dev/video4"
+      framerate: 30.0
+      io_method: "mmap"
+      frame_id: "camera2"
+      pixel_format: "mjpeg2rgb"
+      av_device_format: "YUV422P"
+      image_width: 640
+      image_height: 480
+      camera_name: "camera2"
+      # reusing same camera intrinsics only for demo, should really be unique for camera2"
+      camera_info_url: "file:///home/orl/Documents/MyCameraCalibration/right_camera_cal.yaml"
+      brightness: 0
+      contrast: 32
+      saturation: 64
+      sharpness: 3
+      gain: 0
+      white_balance_automatic: 1
+      white_balance_temperature: 4600
+      auto_exposure: 3
+     
